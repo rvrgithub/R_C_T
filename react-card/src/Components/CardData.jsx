@@ -1,10 +1,11 @@
 import React from 'react'
 
-export const Apple = (props) => {
+export const CardData = (props) => {
+
   return (
-    <div> <div className="apple_box">
+    <div > <div className="main_box">
     {props.apple.map((e) => (
-      <div>
+      <div className={e.style} >
         <div className="flex">
           <p className="date">{e.data}</p>
           <img className="imglogo" src={e.imgLogo} />
