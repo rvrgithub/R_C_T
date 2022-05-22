@@ -1,0 +1,80 @@
+.box_Item{
+    border:1px solid #b6b6f9;
+display:flex;
+justify-content:space-between;
+ background-color: white;
+margin:15px auto;
+ height: 50px;
+ width: 280px;
+ padding:5px 20px;
+ border-radius: 10px;
+ font-size: 20px;
+ font-weight: 700;
+ color: gray;
+}
+.box_Item p{
+    margin-top: 10px;
+}
+.circle{
+   border:7px solid red ;
+   width:20px;
+   height: 20px;
+   background-color: grey;
+   border-radius: 50%;
+   cursor: pointer;
+   margin-top: 7px;
+}
+.green{
+    border:7px solid rgb(158, 231, 158) ;
+    /* border:7px solid red ; */
+    width:20px;
+    height: 20px;
+    background-color: rgb(175, 171, 171);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.purple{
+    border:7px solid rgb(233, 84, 233) ;
+    /* border:7px solid red ; */
+    width:20px;
+    height: 20px;
+    background-color: rgb(175, 171, 171);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.auto{
+    margin: auto;
+    width: 400px;
+    background-color: #e7f1f4;
+padding: 10px;
+}
+.input_box{
+   
+display:flex;
+justify-content:space-between;
+ height: 50px;
+padding: 15px;
+ width: 390px;
+ margin: auto;
+    background-color: #e7f1f4;
+}
+.input_box input{
+    width: 280px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 700;
+margin-left: 32px;
+border-radius: 10px;
+border:1px solid #b6b6f9;
+text-align: center;
+}
+.input_box button{
+    width: 50px;
+    margin-right: 12px;
+    font-size: 30px;
+    border-radius: 10px;
+    border:1px solid #b6b6f9;
+}
