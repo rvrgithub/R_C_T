@@ -1,0 +1,34 @@
+import React from 'react'
+
+export const Restaurant = (props) => {
+  return (
+    <div className="container divider">
+        <div className="cards">
+        {props.Reastaurent.map((restaurent)=>(
+            <div 
+            key={restaurent.id}
+            className="card">
+                <img width="254" height="160px" src={restaurent.image} alt="" />
+                <div className="restaurant-details">
+                    <div className="restaurant-title">{restaurent.name}</div>
+                    <div className="restaurant-subtitle">{restaurent.category.join(", ")} </div>
+                </div>
+                <div className="restaurant-info">
+                    <div className="restaurant-ratings">
+                        <i className="material-icons star-icon">star</i> {restaurent.rating}
+                    </div>
+                     .<div className="restaurant-delivery-timings"> {restaurent.deliveryTimings}</div> .
+                    <div className="restaurant-cost-for-two">{restaurent.costForTwo}</div>
+                </div>
+                <div className="offer-banner">
+                    <span className="material-icons"> local_offer </span>
+                    <span className="offer-text">{restaurent.offer.join(" |")}</span>
+            </div>
+            </div>
+          ))}
+            </div>
+       
+    </div>
+
+  )
+}

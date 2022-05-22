@@ -1,0 +1,115 @@
+[
+    {
+      "id":1,
+      "image": "https://github.com/riteshf/cherry/blob/main/assets/restaurant1.jpeg?raw=true",
+      "name": "Chaitanya Parathas",
+      "category": [
+        "North India",
+        "Punjabi",
+        "Chinese",
+        "Thalis Combo",
+        "Beverages"
+      ],
+      "rating": "4.3",
+      "deliveryTimings": "23 MINS",
+      "costForTwo": "200",
+      "offer": ["20% off", "Use TRYNEW"]
+    },
+    {
+      "id":2,
+      "image": "https://github.com/riteshf/cherry/blob/main/assets/restaurant2.jpeg?raw=true",
+      "name": "Chaitanya Parathas",
+      "category": [
+        "North India",
+        "Punjabi",
+        "Chinese",
+        "Thalis Combo",
+        "Beverages"
+      ],
+      "rating": "1.4",
+      "deliveryTimings": "45 MINS",
+      "costForTwo": "400",
+      "offer": ["80% off", "Use TRYNEW"]
+    },
+    {
+      "id":3,
+      "image": "https://github.com/riteshf/cherry/blob/main/assets/restaurant3.jpeg?raw=true",
+      "name": "Chaitanya Parathas",
+      "category": [
+        "North India",
+        "Punjabi",
+        "Chinese",
+        "Thalis Combo",
+        "Beverages"
+      ],
+      "rating": "7.3",
+      "deliveryTimings": "74 MINS",
+      "costForTwo": "100",
+      "offer": ["35% off", "Use TRYNEW"]
+    },
+    {
+      "id":4,
+      "image": "https://github.com/riteshf/cherry/blob/main/assets/restaurant4.jpeg?raw=true",
+      "name": "Chaitanya Parathas",
+      "category": [
+        "North India",
+        "Punjabi",
+        "Chinese",
+        "Thalis Combo",
+        "Beverages"
+      ],
+      "rating": "6.3",
+      "deliveryTimings": "10 MINS",
+      "costForTwo": "700",
+      "offer": ["70% off", "Use TRYNEW"]
+    },
+    {
+      "id":5,
+      "image": "https://github.com/riteshf/cherry/blob/main/assets/restaurant5.jpeg?raw=true",
+      "name": "Chaitanya Parathas",
+      "category": [
+        "North India",
+        "Punjabi",
+        "Chinese",
+        "Thalis Combo",
+        "Beverages"
+      ],
+      "rating": "2.3",
+      "deliveryTimings": "32 MINS",
+      "costForTwo": "300",
+      "offer": ["50% off", "Use TRYNEW"]
+    },
+    {
+      "id":6,
+      "image": "https://github.com/riteshf/cherry/blob/main/assets/restaurant6.jpeg?raw=true",
+      "name": "Chaitanya Parathas",
+      "category": [
+        "North India",
+        "Punjabi",
+        "Chinese",
+        "Thalis Combo",
+        "Beverages"
+      ],
+      "rating": "8.3",
+      "deliveryTimings": "96 MINS",
+      "costForTwo": "150",
+      "offer": ["30% off", "Use TRYNEW"]
+    },
+    {
+      "id":7,
+      "image": "https://github.com/riteshf/cherry/blob/main/assets/restaurant7.jpeg?raw=true",
+      "name": "Chaitanya Parathas",
+      "category": [
+        "North India",
+        "Punjabi",
+        "Chinese",
+        "Thalis Combo",
+        "Beverages"
+      ],
+      "rating": "3.3",
+      "deliveryTimings": "20 MINS",
+      "costForTwo": "250",
+      "offer": ["10% off", "Use TRYNEW"]
+    }
+  ]
+
