@@ -3,8 +3,13 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 export const Todo = () => {
+  const [page, setPage]= useState(1);
   const [newTodos, setNewTodos] = useState("");
   const [todos, setTodos] = useState([]);
+// useEffect(()=>{
+// getTodos(page);
+// },[page])
+
   const deleteValue = (id) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
@@ -26,14 +31,15 @@ export const Todo = () => {
         setNewTodos("");
       });
   };
+  
   useEffect(() => {
-    fetch("http://localhost:8080/todos?_page=1&_limit=7")
+    fetch(`http://localhost:8080/todos?_page=${page}&_limit=7`)
       .then((r) => r.json())
       .then((d) => {
         // console.log(d);
         setTodos(d);
       });
-  }, []);
+  }, [page]);
   return (
     <div>
       Todo
@@ -56,6 +62,12 @@ export const Todo = () => {
           </button>
         </div>
       ))}
+      <h3>page:{page}</h3>
+      <button disabled={page===1} onClick={()=>{setPage(page-1)}}>prev</button>
+      <button  onClick={()=>{setPage(page+1)}}>Next</button>
+ 
+
     </div>
   );
 };
+
