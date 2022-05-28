@@ -7,7 +7,7 @@ export const Timer = () => {
         if(!timerId.current){
             let id = setInterval(()=>{
                 setTimer((prev)=>prev+1);
-            },100);
+            },1000);
             timerId.current=id
             console.log(timerId.current);
         }
