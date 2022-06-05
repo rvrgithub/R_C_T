@@ -1,0 +1,45 @@
+npm i reate-reacte-app file-name
+npm i create-router-dom@6
+npm run start
+
+
+/home   Accessiable to every one
+/login loginAccessiable to every one
+/feeds feeds Accessiable only when after I login
+
+
+1. wrapping our code in BrowserRouter from router-react-dom
+2. Creating Routes
+3. Creating Route
+
+Goal:-
+1. user Should be able to login
+2. Feeds page Should be able accessiable once I login 
+
+## Creating a Context
+1. CreateContext
+2. Create Provider
+    a.return children
+    b.pass values
+3. Wrap Application inside the Provider
+4. useContext
+
+
+
+1.Protected Routes
+2.Navigate Tag
+3.passing state to redirect
+4.replacing URL to have good browser history 
+
+
+
+<!-- Back Button Stack FILO --!>
+http://localhost:3000
+
+
+
+
+<!-- forward Button Stack Queue FIFO --!>
+http://localhost:3000/posts
+http://localhost:3000/feeds
+

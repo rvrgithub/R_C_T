@@ -9,7 +9,6 @@ text-align: center;
 border:5px solid #7c5931;
 border-radius: 15px;
 `
-
 export const Button = styled.button`
   background: white;
   color:palevioletred;

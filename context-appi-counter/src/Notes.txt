@@ -1,0 +1,10 @@
+. state upfting?
+-
+
+- Reat..
+    - useStae  // variable // udateFunction
+       // create a stae variable
+       //update/ rerender dom when the stae variable is updated
+    - useReducer  // variable // idspatch =>montioniored actions on state
+       //update/rerender dom when the stae variable is updated
+    

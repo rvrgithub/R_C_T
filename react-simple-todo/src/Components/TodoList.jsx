@@ -4,8 +4,8 @@ import "./Todo.css"
 export const TodoList = ({task}) => {
   return (
     <div className="auto">
-    {task.map((e,index) => {
-      return <div  key={e.id}><TodoItem task={e}  index={index}/></div>;
+    {task.map((e) => {
+      return <div  key={e.id}><TodoItem task={e} /></div>;
     })}
     </div>
   )

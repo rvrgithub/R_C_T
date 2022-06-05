@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { TodoList } from "./TodoList";
-import "./Todo.css"
+import "./Todo.css";
 export const TodoApp = () => {
   const [first, setFirstValue] = useState("");
   const [task, setTask] = useState([]);
 
   const handleChange = (e) => {
-    const new_value = e.target.value;
+    let new_value = e.target.value;
     setFirstValue(new_value);
     // console.log("e", new_value);
   };
@@ -25,16 +25,19 @@ export const TodoApp = () => {
   // console.log("task", task);
   return (
     <>
+    
       <div>
         <TodoList task={task} />
       </div>
       <div className="input_box">
-      <input
-        value={first}
-        placeholder=". . . write something . . ."
-        onChange={handleChange}
-      />
-      <button disabled={!task} onClick={handleAdd}>+</button>
+        <input
+          value={first}
+          placeholder=". . . write something . . ."
+          onChange={handleChange}
+        />
+        <button disabled={!task} onClick={()=>{handleAdd()}}>
+          +
+        </button>
       </div>
     </>
   );

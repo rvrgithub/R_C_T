@@ -1,0 +1,17 @@
+{
+  "forms": [
+    {
+      
+      "usename":"Radhika",
+      "email":"abc@gmail.com",
+      "password":"12345",
+      "number" :"65678234",
+      "age" :"45",
+      "isIndian":false,
+      "city" :"Delhi",
+      "gender" :"male",
+      "resume":""
+      
+    }
+  ]
+}

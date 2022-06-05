@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import { Button,MainDiv ,ButtonDiv} from './Timer.module';
+import { Button, MainDiv ,ButtonDiv} from './Timer.module';
 export const Timer = () => {
     const timerId =useRef(null)
     const [timer,setTimer] = useState(0);
