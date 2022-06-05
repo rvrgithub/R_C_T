@@ -1,0 +1,24 @@
+-Controlled and uncntrolled State
+
+
+composition vs Inheritahce?
+
+
+// context use...
+steps 
+    //create a contex ==> CartContext.jsx folder
+    //create a provider
+    //wrap the application in provider
+    // use tha information anywhere using useContext
+
+
+- composition 
+    // information  flows from Parent to Child and never from Child to Parent
+-Inheritance
+
+
+
+
+//p-> c corect
+c->p not possible   //passingcallback as hack
+c1 ->c2 not possible //passingcallback as hack 

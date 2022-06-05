@@ -4,7 +4,6 @@ export const Counter=()=>{
     const [count,setCount] = useState(0);
     const handleCount=(value)=>{
         setCount(value+count)
-    
     }
     const handleCountByTwo=(value)=>{
         setCount(value*count)
