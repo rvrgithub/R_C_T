@@ -1,0 +1,19 @@
+NEtlify Deplopment steps 
+1- Update `package.json`
+   -Add Inttriction
+    `"homepage":"."`
+
+- npm list -g
+-npm run build
+-create a folder _redirects =>type-> /* /index.html 200
+-Run 'netlify deploy on root directory
+-select  -> "create & configure a new site"
+-team/ name
+-site-name -"optional"
+-publish directory -> "build"
+-Done....
+
+2nd step if any change to Update
+-npm run build 
+_redirects- >/* /index.html 200
+-netlify deploy --prod

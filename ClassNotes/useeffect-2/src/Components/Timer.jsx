@@ -66,7 +66,7 @@ export const Timer = () => {
         {" "}
           {">"}
         </button>
-      <h1>Todo</h1>
+      <h1>Heloo Todooes</h1>
         {todos.map((todo) => (
           <div key={todo.id}>
             {todo.id}
