@@ -4,7 +4,7 @@ import {createContext} from "react";
 
 export const AuthContext = createContext();
 export const AuthProvider =({ children})=>{
-const [isAuthorized ,setIsAuthrized] = useState();
+const [isAuthorized ,setIsAuthrized] = useState(false);
 const login =(username ,password) =>{
     if(username && password){
         setIsAuthrized(true);
@@ -17,3 +17,4 @@ return (
     <AuthContext.Provider value={{isAuthorized,login,logout}}>{children}</AuthContext.Provider>
 )
 }
+

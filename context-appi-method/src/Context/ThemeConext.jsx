@@ -12,7 +12,7 @@ export const ThemeProvider = ({children})=>{
         }
     }
     return (
-        <ThemeConetext.Provider value={{theme,isLight :theme ==="light",
+        <ThemeConetext.Provider value={{theme, isLight :theme ==="light",
         toggleTheme,
         }}>{children}</ThemeConetext.Provider>
     )

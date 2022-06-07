@@ -10,10 +10,8 @@ function App() {
   const {isLight} = useContext(ThemeConetext)
   return (
     <div className={`App ${isLight ?"light" : "dark"}`}>
-    
-    <Navbar/>
-     <Body/>
-     
+      <Navbar/>
+     <Body/>  
     </div>
   );
 }

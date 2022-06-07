@@ -9,8 +9,10 @@ export const Navbar = () => {
     <div style={{display:"flex" ,justifyContent: "space-between",padding:"20px 60px"}}>
     <h1> My New Theme App </h1>
     <button onClick={toggleTheme}>{isLight ? "Dark" :"Light"}</button>
-
-    {/* <Stack align='center' direction='row' onClick={toggleTheme}>
+{/* 
+ <Stack align='center' direction='row' onClick={toggleTheme}>
+kn
+  
   <Switch size='lg' />
 </Stack> */}
 

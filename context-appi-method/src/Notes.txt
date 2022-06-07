@@ -6,7 +6,7 @@ composition vs Inheritahce?
 
 // context use...
 steps 
-    //create a contex ==> CartContext.jsx folder
+    //create a context ==> CartContext.jsx folder
     //create a provider
     //wrap the application in provider
     // use tha information anywhere using useContext

@@ -24,7 +24,7 @@ function App() {
             </RequireAuth>
           }
         ></Route>
-         <Route
+        <Route
           path="/post"
           element={
             <RequireAuth>

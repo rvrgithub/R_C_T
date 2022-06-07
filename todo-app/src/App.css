@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.input_box{
+  background-color: #809375;
+  width: 290px;
+  height: 35px;
+  color: black;
+}
+.input_div{
+border: 1px solid #809375;
+width: 280px;
+height: 25px;
+padding:12px 12px 12px 3px;
+margin:10px auto;
+grid-gap: 20px;
+justify-content: space-between;
+}
+
+.input_div p{
+  margin-top: 0;
+  font-size: 20px;
+}
+.checkbox{
+  width: 50px;
+  height: 20px;
+  margin-left: 0;
+}
+
+.show {
+  display: inline;
+  text-decoration: none;
+}
+.none {
+  display: none;
+}
+

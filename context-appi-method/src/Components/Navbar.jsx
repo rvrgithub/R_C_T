@@ -22,7 +22,6 @@ export const Navbar = () => {
     </button>
     <button onClick={buy}>Buy </button>
 <button onClick={toggleTheme}>{`Make ${isLight ? "Dark" : "light"}`}</button>
-
     {isAuthorized &&<Wishlist/>}
     </div>
   )
