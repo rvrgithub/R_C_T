@@ -3,19 +3,22 @@
 }
 
 .input_box{
-  background-color: #809375;
-  width: 290px;
-  height: 35px;
+  background-color: #fcf4de;
+  width: 300px;
+  height: 40px;
   color: black;
+  border-radius: 10px;
+  border: transparent;
 }
 .input_div{
-border: 1px solid #809375;
-width: 280px;
+border: 1px solid #140d74;
+width: 300px;
 height: 25px;
 padding:12px 12px 12px 3px;
 margin:10px auto;
 grid-gap: 20px;
 justify-content: space-between;
+/* border: 1px solid rgb(248, 103, 103); */
 }
 
 .input_div p{
@@ -36,3 +39,22 @@ justify-content: space-between;
   display: none;
 }
 
+.mainBox{
+  /* border: 1px solid red; */
+  background-image: url(https://images.pexels.com/photos/7897018/pexels-photo-7897018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  width: 30%;
+  margin: 30px auto;
+  padding: 6px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  z-index: -1;
+font-weight: 700;  
+border-radius: 10px;
+}
+
+img{
+  width: 20px;
+  margin: 0px 10px;
+}

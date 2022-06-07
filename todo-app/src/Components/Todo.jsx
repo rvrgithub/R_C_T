@@ -28,8 +28,8 @@ export const Todo = () => {
       console.log("update")
   }
   return (
-    <div>
-      Todo
+    <div className="mainBox">
+    
       <div>
         {" "}
         <input
