@@ -1,20 +1,31 @@
 import React from "react";
 
 export const TodoItems = ({ todo, status, handelDelete }) => {
+  console.log(todo)
   return (
     <div>
       TodoItems
-      {todo.map((e) => (
-        <div key={e.id} className="input_div" style={{ display: "flex" }}>
+      {todo.map((e) => {
+        if(e.status === status){
+          console.log("status",status)
+          return (
+            <div key={e.id} className="input_div" style={{ display: "flex" }}>
           <input
             type="checkbox"
             // className='checkbox'
             // if(status:flase){
             //   console.log("false")
             // }
-            className={e.status === false ? "show checkbox" : "none checkbox"}
+            onClick={()=>{
+              console.log("status",status)
+              if(e.status===true){
+              console.log("false")
+            }
+           
+            }}
+            // className={status === true ? "show checkbox" : "none checkbox"}
           />
-          <p className={e.status === false ? "show checkbox" : "none checkbox"}>
+          <p className={status === false ? "show checkbox" : "none checkbox"}>
             {e.name}
           </p>
 
@@ -32,7 +43,10 @@ export const TodoItems = ({ todo, status, handelDelete }) => {
             </button>
           </div>
         </div>
-      ))}
+          )
+        }
+        
+      })}
     </div>
   );
 };

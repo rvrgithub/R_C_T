@@ -1,108 +1,67 @@
 {
   "formData": [
     {
-      "data": {},
-      "isCompleted": false,
-      "id": 1
-    },
-    {
-      "data": {
-        "firstName": "harry"
-      },
-      "isCompleted": false,
-      "id": 2
-    },
-    {
-      "data": {
-        "firstName": "harry",
-        "department": ""
-      },
-      "isCompleted": false,
-      "id": 3
-    },
-    {
-      "data": {
-        "firstName": "harry",
-        "department": "Arts"
-      },
-      "isCompleted": false,
-      "id": 4
-    },
-    {
-      "data": {
-        "firstName": "harry",
-        "department": "Arts"
-      },
-      "isCompleted": false,
-      "id": 5
-    },
-    {
-      "data": {
-        "firstName": "harry",
-        "department": "Arts"
-      },
-      "isCompleted": false,
-      "id": 6
-    },
-    {
-      "data": {},
-      "isCompleted": false,
-      "id": 7
-    },
-    {
-      "data": {},
-      "isCompleted": false,
-      "id": 8
-    },
-    {
-      "data": {},
-      "isCompleted": false,
+      "firstName": "radhika",
+      "age": "54",
+      "address": "iueyrtih",
+      "department": "Music",
+      "salary": "456435656",
+      "xmarital": "unmarried",
       "id": 9
     },
     {
-      "data": {},
-      "isCompleted": false,
+      "firstName": "soniya",
+      "age": "54",
+      "address": "ryery",
+      "department": "Music",
+      "salary": "423523645",
+      "xmarital": "unmarried",
       "id": 10
     },
     {
-      "data": {},
-      "isCompleted": false,
+      "firstName": "aaaaaa",
+      "age": "23",
+      "address": "sfhdfhdf",
+      "department": "science",
+      "salary": "757567",
+      "marital": "married",
       "id": 11
     },
     {
-      "data": {},
-      "isCompleted": false,
+      "firstName": "ffffff",
+      "age": "98",
+      "address": "gertwert",
+      "department": "Commerce",
+      "salary": "6234",
+      "marital": "unmarried",
       "id": 12
     },
     {
-      "data": {},
-      "isCompleted": false,
+      "firstName": "ddddd",
+      "age": "25",
+      "address": "rywergdfg",
+      "department": "Arts",
+      "salary": "876",
+      "marital": "unmarried",
       "id": 13
     },
     {
-      "data": {},
-      "isCompleted": false,
+      "firstName": "wwwwww",
+      "age": "76",
+      "address": "sdfhsdg",
+      "department": "science",
+      "salary": "3465346",
+      "marital": "married",
       "id": 14
     },
     {
-      "data": {},
-      "isCompleted": false,
+      "firstName": "eeeeee",
+      "age": "33",
+      "address": "sdfhsdg",
+      "department": "science",
+      "salary": "543346",
+      "marital": "unmarried",
       "id": 15
-    },
-    {
-      "data": {},
-      "isCompleted": false,
-      "id": 16
-    },
-    {
-      "data": {},
-      "isCompleted": false,
-      "id": 17
-    },
-    {
-      "data": {},
-      "isCompleted": false,
-      "id": 18
     }
   ]
 }

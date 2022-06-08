@@ -24,11 +24,13 @@ justify-content: space-between;
 .input_div p{
   margin-top: 0;
   font-size: 20px;
+  margin-left: 0;
 }
 .checkbox{
   width: 50px;
   height: 20px;
   margin-left: 0;
+  margin-right: 0;
 }
 
 .show {

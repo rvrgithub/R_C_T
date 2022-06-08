@@ -45,10 +45,10 @@ export const Todo = () => {
       </div>
       <TodoItems
         todo={todo}
-        status= {false}
+       
            handelDelete={handelDelete}
       />
-          <button onClick={()=>updateTodo}>   SHOW COMPLETED TO-DOS </button>
+          <button onClick={updateTodo}>   SHOW COMPLETED TO-DOS </button>
     </div>
 
 
